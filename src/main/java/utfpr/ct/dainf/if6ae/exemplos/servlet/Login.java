@@ -44,8 +44,8 @@ public class Login extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Login at " + request.getContextPath() + "</h1>");
-            out.println(login);
-            out.println(senha);
+            out.println("<h2>" + login + "</h2>");
+            out.println("<h3>" + senha + "</h3>");
             out.println("</body>");
             out.println("</html>");
         } finally {            
